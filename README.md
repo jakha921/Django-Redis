@@ -6,6 +6,10 @@
 ## install basic Django
 
 ### Caching settings
+```shell
+    pip install django-redis    # install requirement for redis
+```
+
 ```python
 CACHES = {
     "default": {
