@@ -8,6 +8,14 @@
 ### Caching settings
 ```shell
     pip install django-redis    # install requirement for redis
+    
+    sudo apt-get update
+    sudo apt-get install redis  # if dont have Redis 
+    
+    sudo service redis-server start # start redis server
+    redis-cli # enter to redis environment 
+    127.0.0.1:6379> ping    # for testng
+    PONG   # answer if everything work correclly
 ```
 
 ```python
